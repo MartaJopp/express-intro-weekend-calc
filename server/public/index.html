@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="vendors/JQ.js" charset="utf-8"></script>
+    <script src="scripts/client.js" charset="utf-8"></script>
+    <title>Salary Calculator - Week 1 Weekend Challenge</title>
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <H2>Salary Calculator</H2>
+        </header>
+        <div class="form">
+            First Name:
+            <input class="employee first name" type="text" id="firstName"> Last Name:
+            <input class="employee last name" type="text" id="lastName"> Employee ID Number:
+            <input class="employee idNumber" type="text" id="idNumber">
+            <br>
+            <br> Employee Job Title:
+            <input class="employee jobTitle" type="text" id="jobTitle"> Employee Annual Salary:
+            <input class="employee salary" type="text" id="salary">
+        </div>
+        <div class="ButtonHere">
+            <Button id="Submit">Submit</button>
+        </div>
+        <div class="content">
+            <div>
+                <h3>Total Monthly Costs:
+                    <span id="Money"> 0 </span>
+                </h3>
+            </div>
+            <table id="theTable">
+                <thead>
+                    <tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Employee ID Number</th>
+                        <th>Employee Job Title</th>
+                        <th>Annual Salary</th>
+                        <th>Remove Employee?</th>
+                    </tr>
+                </thead>
+            </table>
+        </div>
+</body>
+
+</html>
